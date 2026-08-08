@@ -1,0 +1,199 @@
+{
+  "personalInfo": {
+    "name": "Md Parvez Hasan",
+    "title": "Full Stack Developer",
+    "tagline": "I build fast, reliable web applications with React, Node.js and MongoDB — from idea to production.",
+    "email": "parvezyesrat17032024@gmail.com",
+    "phone": "+8801876097788",
+    "whatsapp": "+8801876097788",
+    "location": "Chattogram, Bangladesh",
+    "avatar": "https://i.ibb.co.com/2LczZcR/789.jpg",
+    "resumeUrl": "/resume/Parvez_Web-Developer.pdf",
+    "socials": {
+      "github": "https://github.com/parety308",
+      "linkedin": "https://www.linkedin.com/in/mdparvezhasan",
+      "facebook": "https://www.facebook.com/share/173ddoiXfL/",
+      "twitter": "[Your Twitter/X profile URL]"
+    }
+  },
+  "aboutContent": {
+    "journey": "I started programming in college when I built my first website, and I've been hooked ever since. What began as curiosity about how websites work turned into a full commitment to becoming a MERN stack developer — learning React, Node.js and databases through building real, end-to-end products instead of just tutorials.",
+    "focus": "Right now I'm focused on building complete, role-based platforms — marketplaces, delivery systems, booking apps — where authentication, dashboards, payments and real-time status updates all have to work together reliably.",
+    "enjoy": [
+      "Building full-stack web applications end to end",
+      "Designing clean, role-based dashboards",
+      "Solving tricky state-management and API-integration problems",
+      "Turning a rough idea into a working, deployed product"
+    ],
+    "hobbies": [
+      "Exploring open-source projects",
+      "Writing technical notes on what I build",
+      "Hiking"
+    ],
+    "highlights": [
+      { "label": "Years Learning & Building", "value": "1+" },
+      { "label": "Projects Shipped", "value": "3+" },
+      { "label": "Open Source Contributions", "value": "15+" },
+      { "label": "Tech Stack Comfort", "value": "MERN" }
+    ]
+  },
+  "experience": [
+  {
+    "position": "Full Stack Developer Intern",
+    "company": "Cypher Bangladesh",
+    "duration": "3 Months",
+    "description": "Contributed to the development and maintenance of full-stack web applications using React, Node.js, and Express.js.",
+    "responsibilities": [
+      "Contributed to the development and maintenance of full-stack web applications using React, Node.js, and Express.js.",
+      "Collaborated with the engineering team on building and integrating REST APIs and database-driven features.",
+      "Assisted in debugging, testing, and improving application performance under senior developer guidance."
+    ]
+  }
+],
+  "skills": {
+    "frontend": [
+      { "name": "React.js", "level": 92 },
+      { "name": "TypeScript", "level": 85 },
+      { "name": "Tailwind CSS", "level": 90 },
+      { "name": "Next.js", "level": 80 },
+      { "name": "HTML5 / CSS3", "level": 95 }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": 88 },
+      { "name": "Express.js", "level": 85 },
+      { "name": "REST APIs", "level": 90 },
+      { "name": "GraphQL", "level": 70 }
+    ],
+    "database": [
+      { "name": "MongoDB", "level": 85 },
+      { "name": "PostgreSQL", "level": 60 },
+      { "name": "Redis", "level": 57 }
+    ],
+    "tools": [
+      { "name": "Git & GitHub", "level": 92 },
+      { "name": "Docker", "level": 60 },
+      { "name": "Firebase", "level": 80 },
+      { "name": "Figma", "level": 70 }
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science & Engineering",
+      "institution": "Chittagong University of Engineering and Technology, Bangladesh",
+      "year": "2024 – 2028",
+      "description": "Focused on software engineering, data structures and web technologies."
+    }
+  ],
+  "projects": [
+    {
+      "id": "local-chef-bazaar",
+      "name": "LocalChefBazaar",
+      "subtitle": "Local Culinary Marketplace",
+      "image": "project-1",
+      "shortDescription": "A role-based marketplace connecting home chefs with customers, with secure auth, ordering, and a full review system.",
+      "overview": "LocalChefBazaar connects local home chefs with customers looking for fresh, homemade meals. Users can browse daily meals, place orders, track requests, save favorites, and leave reviews. Chefs manage their own listings and incoming order requests, while admins moderate users and role-change requests platform-wide.",
+      "techStack": [
+        "React.js",
+        "React Router",
+        "TanStack Query",
+        "Context API",
+        "Tailwind CSS",
+        "DaisyUI",
+        "Framer Motion",
+        "React Hook Form",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase Authentication",
+        "JWT"
+      ],
+      "liveLink": "https://local-chef-bazaar-online.netlify.app",
+      "githubLink": "https://github.com/parety308/Local_Chef_Bazaar_Client",
+      "challenges": [
+        "Combining Firebase Authentication with a JWT-secured API, including an Axios interceptor that injects and refreshes tokens automatically",
+        "Building role-based route protection for User, Chef and Admin dashboards",
+        "Designing an admin flow for approving or rejecting chef/admin role-change requests",
+        "Keeping the meal browsing experience fast with pagination and sorting on a growing catalog"
+      ],
+      "improvements": [
+        "Add real-time order status updates via WebSockets",
+        "Introduce chef-to-customer messaging",
+        "Add analytics for chefs on their best-performing meals",
+        "Expand automated test coverage for the ordering flow"
+      ]
+    },
+    {
+      "id": "zap-shift",
+      "name": "ZapShift",
+      "subtitle": "Parcel Delivery Management System",
+      "image": "project-2",
+      "shortDescription": "A door-to-door parcel delivery platform with real-time tracking, dynamic pricing, and role-based dashboards for users, riders and admins.",
+      "overview": "ZapShift streamlines parcel booking, tracking, payment and delivery operations. It calculates delivery pricing dynamically based on weight and distance, assigns riders through an admin dashboard, and takes every parcel through a full lifecycle — from unpaid to delivered — with OTP-based delivery confirmation and rider earnings tracking.",
+      "techStack": [
+        "React",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router",
+        "TanStack Query",
+        "Recharts",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase Authentication",
+        "JWT"
+      ],
+      "liveLink": "https://simple-firebase-auth-c54cc.web.app",
+      "githubLink": "https://github.com/parety308/Zap_Shift_Client",
+      "challenges": [
+        "Modeling an 8-stage parcel lifecycle (unpaid → paid → pickup → in-transit → delivered) and keeping it in sync across three different dashboards",
+        "Implementing dynamic pricing rules based on parcel type, weight and whether delivery is within or outside the city",
+        "Building rider earnings logic that differs for in-city (80%) vs outside-city (60%) deliveries",
+        "Coordinating OTP-based confirmation for both pickup and final delivery"
+      ],
+      "improvements": [
+        "Add live map-based rider tracking",
+        "Send SMS/push notifications on status changes",
+        "Automate rider assignment based on proximity and load",
+        "Add a customer support / dispute-resolution flow"
+      ]
+    },
+    {
+      "id": "rent-nest",
+      "name": "RentNest",
+      "subtitle": "Rental Property Marketplace",
+      "image": "project-3",
+      "shortDescription": "A full-stack rental marketplace with a Next.js frontend and a separate Express/Prisma backend, secure Stripe payments, and role-based dashboards.",
+      "overview": "RentNest lets landlords list and manage rental properties while tenants browse listings, submit rental requests, and pay securely through Stripe. It is deployed as two independent services — a Next.js frontend and an Express/Prisma backend on separate origins — with a full rental lifecycle from request to payment to review.",
+      "techStack": [
+        "Next.js 16 (App Router)",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS v4",
+        "shadcn/ui",
+        "React Hook Form",
+        "Zod",
+        "Framer Motion",
+        "Express 5",
+        "Prisma ORM",
+        "PostgreSQL",
+        "JWT Auth",
+        "Stripe",
+        "Cloudinary"
+      ],
+      "liveLink": "https://rentnest-a5.onrender.com",
+      "githubLink": "[GitHub Repository URL — not provided]",
+      "challenges": [
+        "Making authentication cookies work across two different origins by proxying client requests through a Next.js rewrite while forwarding cookies manually on server-side requests",
+        "Keeping JWT access-token expiry shorter than refresh-token expiry so the silent-refresh flow in middleware never breaks",
+        "Writing an environment-aware API client that calls a relative /api path in the browser but an absolute backend URL during server-side rendering and static generation",
+        "Verifying Stripe webhook signatures reliably in production"
+      ],
+      "improvements": [
+        "Add in-app messaging between landlords and tenants",
+        "Add map-based property search and filtering",
+        "Support additional payment methods beyond Stripe",
+        "Add an automated end-to-end test suite for the rental request → payment flow"
+      ]
+    }
+  ]
+}
